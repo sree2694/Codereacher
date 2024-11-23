@@ -111,64 +111,123 @@ header nav ul li a {
 .courses {
   padding: 2em;
 }
-
-.categories-nav {
-  background-color: #f8f9fa;
-  border-bottom: 1px solid #ddd;
+.technology-page {
+  margin: 2em;
+  text-align: center;
 }
 
-.categories-nav ul {
+.technology-page h1 {
+  font-size: 2.5em;
+  color: #0044cc;
+}
+
+.technology-page p {
+  font-size: 1.2em;
+  color: #555;
+  line-height: 1.5;
+}
+
+.navbar {
   display: flex;
-  gap: 1em;
-  list-style: none;
-  padding: 0.5em 1em;
-  margin: 0;
   justify-content: center;
+  align-items: center;
+  background-color: #333;
+  padding: 1em;
+  box-shadow: 0 4px 6px rgb(255, 255, 255);
 }
 
-.categories-nav ul li {
+.navbar-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 1em;
+}
+
+.navbar-item {
+  position: relative;
+}
+
+/* Dropdown Container */
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Toggle Button */
+.dropdown-toggle {
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
   padding: 0.5em 1em;
+  font-size: 1em;
   cursor: pointer;
   border-radius: 4px;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s;
 }
 
-.categories-nav ul li:hover {
-  background-color: #e6e9ea;
+.dropdown-toggle:hover {
+  background-color: #ffffff;
+  color: #161e25;
 }
 
-.categories-nav ul li.active {
-  background-color: #0044cc;
-  color: white;
-  font-weight: bold;
+/* Dropdown Menu */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  margin: 0;
+  padding: 0.5em 0;
+  z-index: 10;
+  min-width: 150px;
 }
 
-.technologies {
-  margin-top: 2em;
+/* Dropdown Menu Item */
+.dropdown-item {
+  padding: 0.5em 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dropdown-item:hover {
+  background-color: #f4f4f4;
+}
+
+/* Selected Technology */
+.selected-technology {
+  margin: 1em auto;
   padding: 1em;
+  max-width: 600px;
+  background-color: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 8px;
-  background-color: #fff;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.technologies h3 {
+.selected-technology h3 {
+  margin-bottom: 0.5em;
   color: #333;
-  margin-bottom: 1em;
 }
 
-.technologies ul {
-  list-style: none;
-  padding: 0;
+.selected-technology p {
+  font-size: 1.2em;
+  color: #555;
 }
 
-.technologies ul li {
-  padding: 0.5em 0;
-  border-bottom: 1px solid #eee;
-}
-
-.technologies ul li:last-child {
-  border-bottom: none;
-}
 
 /* Additional styles for responsiveness */
 @media (max-width: 768px) {

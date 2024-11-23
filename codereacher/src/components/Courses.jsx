@@ -1,66 +1,80 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../App.css';
 
 const Courses = () => {
-    // State to track which category is selected and expanded
-    const [expandedCategory, setExpandedCategory] = useState(null);
+    const [expandedDropdown, setExpandedDropdown] = useState(null);
+    const navigate = useNavigate();
 
-    // Data for categories and technologies
     const categories = [
         {
             name: "Front-end",
-            technologies: ["React", "Angular", "Vue.js", "Bootstrap", "HTML/CSS"],
+            technologies: [
+                { name: "React", path: "/react" },
+                { name: "Angular", path: "/angular" },
+                { name: "Vue.js", path: "/vuejs" },
+                { name: "Bootstrap", path: "/bootstrap" },
+                { name: "HTML/CSS", path: "/htmlcss" },
+            ],
+
         },
         {
-            name: "Backend",
-            technologies: ["Node.js", "Spring Boot", "Django", "Express.js", "Ruby on Rails"],
+            name: "Back-end",
+            technologies: [
+                { name: "Node.js", path: "/nodejs" },
+                { name: "Spring Boot", path: "/springboot" },
+                { name: "Django", path: "/django" },
+                { name: "Express.js", path: "/expressjs" },
+                { name: "Ruby on Rails", path: "/rubyrails" },
+            ],
         },
         {
             name: "Databases",
-            technologies: ["MySQL", "PostgreSQL", "MongoDB", "SQLite", "Redis"],
-        },
+            technologies: [
+                { name: "MySQL", path: "/mysql" },
+                { name: "PostgreSQL", path: "/postgresql" },
+                { name: "MongoDB", path: "/mongodb" },
+                { name: "SQLite", path: "/sqlite" },
+                { name: "Redis", path: "/redis" },
+            ],
+        }
+        // Other categories...
     ];
 
-    // Toggle the selected category for expand/collapse
-    const toggleCategory = (categoryName) => {
-        if (expandedCategory === categoryName) {
-            setExpandedCategory(null); // Collapse if the same category is clicked
-        } else {
-            setExpandedCategory(categoryName); // Expand the clicked category
-        }
+    const toggleDropdown = (categoryName) => {
+        setExpandedDropdown(expandedDropdown === categoryName ? null : categoryName);
     };
 
     return (
-        <section className="courses">
-            {/* Navigation Bar */}
-            <nav className="categories-nav">
-                <ul>
+        <>
+            <nav className="navbar">
+                <ul className="navbar-list">
                     {categories.map((category, index) => (
-                        <li
-                            key={index}
-                            className={expandedCategory === category.name ? "active" : ""}
-                            onClick={() => toggleCategory(category.name)}
-                        >
-                            {category.name}
+                        <li className="navbar-item" key={index}>
+                            <button
+                                className="dropdown-toggle"
+                                onClick={() => toggleDropdown(category.name)}
+                            >
+                                {category.name}
+                            </button>
+                            {expandedDropdown === category.name && (
+                                <ul className="dropdown-menu">
+                                    {category.technologies.map((tech, index) => (
+                                        <li
+                                            key={index}
+                                            className="dropdown-item"
+                                            onClick={() => navigate(tech.path)}
+                                        >
+                                            {tech.name}
+                                        </li>
+                                    ))}
+                                </ul>
+                            )}
                         </li>
                     ))}
                 </ul>
             </nav>
-
-            {/* Display Technologies */}
-            {expandedCategory && (
-                <div className="technologies">
-                    <h3>{expandedCategory} Technologies</h3>
-                    <ul>
-                        {categories
-                            .find((category) => category.name === expandedCategory)
-                            .technologies.map((tech, index) => (
-                                <li key={index}>{tech}</li>
-                            ))}
-                    </ul>
-                </div>
-            )}
-        </section>
+        </>
     );
 };
 
