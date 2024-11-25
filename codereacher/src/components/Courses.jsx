@@ -74,6 +74,14 @@ const Courses = () => {
                     ))}
                 </ul>
             </nav>
+            <div className="course-image-container">
+
+                <img
+                    src="/assets/images/Learningpath.png" // Replace with your image URL
+                    alt="Online Academy"
+                    className="academy-image"
+                />
+            </div>
         </>
     );
 };

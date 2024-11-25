@@ -228,6 +228,18 @@ header nav ul li a {
   color: #555;
 }
 
+.course-image-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.academy-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 
 /* Additional styles for responsiveness */
 @media (max-width: 768px) {

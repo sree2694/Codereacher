@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
 import Courses from "./components/Courses";
-import ReactPage from "./components/Courses/front-end/Reactjs";
+import ReactPage from "./components/Courses/front-end/ReactPage/Reactjs";
 import AngularPage from "./components/Courses/front-end/Angularjs";
 import VuePage from "./components/Courses/front-end/Vuejs";
 import BootstrapPage from "./components/Courses/front-end/Bootstrap";
