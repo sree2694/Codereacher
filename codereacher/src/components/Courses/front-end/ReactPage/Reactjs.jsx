@@ -11,6 +11,10 @@ import Hooks from './contents/Hooks';
 import ContextAPI from './contents/ContextAPI';
 import PerformanceOptimization from './contents/PerformanceOptimization';
 import GettingStarted from "./contents/GettingStarted";
+import HOC from "./contents/HOC";
+import ErrorBoundary from "./contents/ErrorBoundaries";
+import Memoization from "./contents/Memoization";
+import Redux from "./contents/Redux";
 
 const ReactPage = () => {
     const [activeNav, setActiveNav] = useState(null);
@@ -39,6 +43,12 @@ const ReactPage = () => {
                 { name: "Hooks", component: <Hooks /> },
                 { name: "Context API", component: <ContextAPI /> },
                 { name: "Performance Optimization", component: <PerformanceOptimization /> },
+                { name: "Routing", component: <PerformanceOptimization /> },
+                { name: "Higher-Order Components", component: <HOC /> },
+                { name: "Error Boundaries", component: <ErrorBoundary /> },
+                { name: "React Memoization", component: <Memoization /> },
+                { name: "Redux", component: <Redux /> },
+                { name: "Web Workers", component: <PerformanceOptimization /> },
             ],
         },
     ];

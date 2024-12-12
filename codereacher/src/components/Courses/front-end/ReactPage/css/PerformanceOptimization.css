@@ -1,0 +1,73 @@
+.performance-optimization {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.performance-optimization h2 {
+    color: #0056b3;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+.performance-optimization h3 {
+    color: #003d80;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.performance-optimization h4 {
+    color: #002f66;
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+.performance-optimization p {
+    margin: 10px 0;
+}
+
+.performance-optimization ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.performance-optimization pre {
+    background-color: #e8f4fc;
+    padding: 10px;
+    border-left: 3px solid #0056b3;
+    overflow-x: auto;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+.performance-optimization .comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+.performance-optimization .comparison-table th,
+.performance-optimization .comparison-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.performance-optimization .comparison-table th {
+    background-color: #0056b3;
+    color: white;
+}
+
+.performance-optimization ol {
+    margin: 10px 0 10px 20px;
+}
+
+.performance-optimization li {
+    margin: 5px 0;
+}

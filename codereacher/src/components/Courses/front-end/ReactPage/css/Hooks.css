@@ -1,0 +1,137 @@
+/* Styles for the Hooks Component */
+
+.hooks-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.hooks-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.hooks-description {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.hooks-subtitle {
+    font-size: 18px;
+    color: #444;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.hooks-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #333;
+}
+
+.hooks-list li {
+    margin-bottom: 8px;
+}
+
+.hooks-note {
+    font-size: 14px;
+    color: #666;
+    margin-top: 15px;
+}
+
+.example-title {
+    font-size: 20px;
+    color: #2c3e50;
+    margin-top: 25px;
+}
+
+.example-description {
+    font-size: 16px;
+    color: #34495e;
+    margin: 10px 0;
+}
+
+.example-button {
+    font-size: 16px;
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.example-button:hover {
+    background-color: #2980b9;
+}
+
+.quiz-title {
+    font-size: 20px;
+    color: #8e44ad;
+    margin-top: 25px;
+}
+
+.quiz-question {
+    font-size: 16px;
+    color: #9b59b6;
+    margin-bottom: 10px;
+}
+
+.quiz-input {
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.quiz-button {
+    font-size: 16px;
+    padding: 8px 12px;
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.quiz-button:hover {
+    background-color: #d35400;
+}
+
+.quiz-feedback {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #27ae60;
+}
+
+.references-title {
+    font-size: 20px;
+    color: #16a085;
+    margin-top: 25px;
+}
+
+.references-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.references-list li {
+    margin-bottom: 8px;
+}
+
+.references-list a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.references-list a:hover {
+    text-decoration: underline;
+}
