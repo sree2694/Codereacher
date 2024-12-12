@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './ReactPage.css';
+import './css/ReactPage.css';
 
 // Importing individual content components
 import WhatIsReact from './contents/WhatIsReact';
@@ -10,6 +10,7 @@ import StateAndProps from './contents/StateAndProps';
 import Hooks from './contents/Hooks';
 import ContextAPI from './contents/ContextAPI';
 import PerformanceOptimization from './contents/PerformanceOptimization';
+import GettingStarted from "./contents/GettingStarted";
 
 const ReactPage = () => {
     const [activeNav, setActiveNav] = useState(null);
@@ -20,6 +21,7 @@ const ReactPage = () => {
             groupName: "Introduction",
             items: [
                 { name: "What is React?", component: <WhatIsReact /> },
+                { name: "Get Started", component: <GettingStarted /> },
                 { name: "Key Features", component: <KeyFeatures /> },
             ],
         },

@@ -1,0 +1,68 @@
+/* GetStarted.css */
+
+.get-started {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.get-started h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.get-started h3 {
+    color: #444;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.get-started p {
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.get-started ol,
+.get-started ul {
+    margin-left: 20px;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.get-started code {
+    background-color: #eee;
+    color: #d63384;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.get-started pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-left: 3px solid #007bff;
+    color: #333;
+    overflow-x: auto;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 1rem;
+}
+
+.get-started a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.get-started a:hover {
+    text-decoration: underline;
+}
+
+.get-started ul li {
+    margin-bottom: 0.5rem;
+}

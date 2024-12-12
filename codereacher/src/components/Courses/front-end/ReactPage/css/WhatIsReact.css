@@ -1,0 +1,45 @@
+.what-is-react {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.what-is-react h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.what-is-react pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-left: 3px solid #007acc;
+    overflow-x: auto;
+}
+
+.quiz-section {
+    margin-top: 20px;
+}
+
+.quiz-section input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.quiz-section button {
+    padding: 8px 16px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.quiz-section button:hover {
+    background-color: #005f99;
+}
+
+.quiz-feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}

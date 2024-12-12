@@ -1,0 +1,31 @@
+.key-features {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+}
+
+.key-features h2 {
+    color: #007acc;
+    margin-bottom: 20px;
+}
+
+.key-features pre {
+    background: #f9f9f9;
+    padding: 10px;
+    border-left: 4px solid #007acc;
+    overflow-x: auto;
+}
+
+.key-features ul, .key-features ol {
+    margin-left: 20px;
+}
+
+.key-features a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+.key-features a:hover {
+    text-decoration: underline;
+}
