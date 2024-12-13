@@ -21,6 +21,8 @@ import PostgresqlPage from "./components/Courses/databases/postgresql";
 import MongodbPage from "./components/Courses/databases/mongodb";
 import SqlitePage from "./components/Courses/databases/sqlite";
 import RedisPage from "./components/Courses/databases/redis";
+import PrivacyPolicy from "./components/Footer/PrivacyPolicy";
+import AboutUs from "./components/Header/AboutUs";
 
 function App() {
     return (
@@ -54,6 +56,8 @@ function App() {
                         <Route path="/mongodb" element={<MongodbPage />} />
                         <Route path="/sqlite" element={<SqlitePage />} />
                         <Route path="/redis" element={<RedisPage />} />
+                        <Route path="/about-us" element={<AboutUs />} />
+                        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                     </Routes>
                 </main>
                 <Footer />

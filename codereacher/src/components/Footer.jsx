@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+import {Link} from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -7,7 +8,7 @@ const Footer = () => {
             <div className="container">
                 <p>&copy; 2024 Code Reacher. All Rights Reserved.</p>
                 <ul>
-                    <li><a href="#">Privacy Policy</a></li>
+                    <li><Link to="/privacy-policy">Privacy Policy</Link></li>
                     <li><a href="#">Terms of Service</a></li>
                     <li><a href="#">Help Center</a></li>
                 </ul>
