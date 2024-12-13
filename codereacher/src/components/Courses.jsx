@@ -14,7 +14,8 @@ const Courses = () => {
                 { name: "Angular", path: "/angular" },
                 { name: "Vue.js", path: "/vuejs" },
                 { name: "Bootstrap", path: "/bootstrap" },
-                { name: "HTML/CSS", path: "/htmlcss" },
+                { name: "HTML", path: "/html" },
+                { name: "CSS", path: "/css" },
             ],
 
         },

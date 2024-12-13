@@ -7,10 +7,9 @@ import Hero from "./components/Hero";
 import Features from "./components/Features";
 import Courses from "./components/Courses";
 import ReactPage from "./components/Courses/front-end/ReactPage/Reactjs";
-import AngularPage from "./components/Courses/front-end/Angularjs";
+import AngularPage from "./components/Courses/front-end/AngularJs/Angularjs";
 import VuePage from "./components/Courses/front-end/Vuejs";
 import BootstrapPage from "./components/Courses/front-end/Bootstrap";
-import HTMLCSSPage from "./components/Courses/front-end/Htmlcss";
 import NodeJsPage from "./components/Courses/back-end/nodejs";
 import SpringBootPage from "./components/Courses/back-end/springboot";
 import DjangoPage from "./components/Courses/back-end/django";
@@ -23,6 +22,10 @@ import SqlitePage from "./components/Courses/databases/sqlite";
 import RedisPage from "./components/Courses/databases/redis";
 import PrivacyPolicy from "./components/Footer/PrivacyPolicy";
 import AboutUs from "./components/Header/AboutUs";
+import TermsOfService from "./components/Footer/TermsOfService";
+import HelpCenter from "./components/Footer/HelpCenter";
+import HTMLPage from "./components/Courses/front-end/HTMLpage/Html";
+import CSSPage from "./components/Courses/front-end/CSSPage/CSS";
 
 function App() {
     return (
@@ -40,12 +43,17 @@ function App() {
                         } />
                         {/* Additional Route for Courses */}
                         <Route path="/courses" element={<Courses />} />
+                        <Route path="/about-us" element={<AboutUs />} />
+                        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+                        <Route path="/terms-of-service" element={<TermsOfService />} />
+                        <Route path="/helpcenter" element={<HelpCenter />} />
                         {/* Technology Pages */}
                         <Route path="/react" element={<ReactPage />} />
                         <Route path="/angular" element={<AngularPage />} />
                         <Route path="/vuejs" element={<VuePage />} />
                         <Route path="/bootstrap" element={<BootstrapPage />} />
-                        <Route path="/htmlcss" element={<HTMLCSSPage />} />
+                        <Route path="/html" element={<HTMLPage />} />
+                        <Route path="/css" element={<CSSPage />} />
                         <Route path="/nodejs" element={<NodeJsPage />} />
                         <Route path="/springboot" element={<SpringBootPage/>} />
                         <Route path="/django" element={<DjangoPage />} />
@@ -56,8 +64,7 @@ function App() {
                         <Route path="/mongodb" element={<MongodbPage />} />
                         <Route path="/sqlite" element={<SqlitePage />} />
                         <Route path="/redis" element={<RedisPage />} />
-                        <Route path="/about-us" element={<AboutUs />} />
-                        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+
                     </Routes>
                 </main>
                 <Footer />
