@@ -1,0 +1,48 @@
+.help-center {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 20px auto;
+    max-width: 900px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    line-height: 1.6;
+}
+
+.help-center h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.help-center h2 {
+    font-size: 1.8em;
+    color: #27ae60;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.help-center p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.help-center ul, .help-center ol {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+.help-center li {
+    margin-bottom: 8px;
+}
+
+.help-center a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.help-center a:hover {
+    text-decoration: underline;
+}
