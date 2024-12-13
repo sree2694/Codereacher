@@ -1,42 +1,42 @@
-.redux {
+.web-workers {
     font-family: Arial, sans-serif;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: #f4f4f9;
     border: 1px solid #ddd;
     border-radius: 5px;
     color: #333;
     line-height: 1.6;
 }
 
-.redux h1 {
+.web-workers h1 {
     font-size: 2em;
     color: #2c3e50;
     margin-bottom: 15px;
 }
 
-.redux h2 {
+.web-workers h2 {
     font-size: 1.5em;
-    color: #16a085;
+    color: #27ae60;
     margin-bottom: 10px;
 }
 
-.redux p {
+.web-workers p {
     font-size: 1em;
     margin: 10px 0;
 }
 
-.redux ul {
+.web-workers ul {
     list-style-type: disc;
     margin: 15px 0;
     padding-left: 20px;
 }
 
-.redux li {
+.web-workers li {
     margin-bottom: 8px;
 }
 
-.redux pre {
-    background-color: #f8f8f8;
+.web-workers pre {
+    background-color: #eef;
     border: 1px solid #ccc;
     padding: 10px;
     font-family: "Courier New", Courier, monospace;
@@ -45,11 +45,31 @@
     margin: 10px 0;
 }
 
-.redux a {
-    color: #3498db;
+.web-workers input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.web-workers button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.web-workers button:hover {
+    background-color: #2980b9;
+}
+
+.web-workers a {
+    color: #2980b9;
     text-decoration: none;
 }
 
-.redux a:hover {
+.web-workers a:hover {
     text-decoration: underline;
 }

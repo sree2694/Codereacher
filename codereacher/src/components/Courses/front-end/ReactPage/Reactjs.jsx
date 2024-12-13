@@ -15,6 +15,7 @@ import HOC from "./contents/HOC";
 import ErrorBoundary from "./contents/ErrorBoundaries";
 import Memoization from "./contents/Memoization";
 import Redux from "./contents/Redux";
+import WebWorkers from "./contents/Webworkers";
 
 const ReactPage = () => {
     const [activeNav, setActiveNav] = useState(null);
@@ -48,7 +49,7 @@ const ReactPage = () => {
                 { name: "Error Boundaries", component: <ErrorBoundary /> },
                 { name: "React Memoization", component: <Memoization /> },
                 { name: "Redux", component: <Redux /> },
-                { name: "Web Workers", component: <PerformanceOptimization /> },
+                { name: "Web Workers", component: <WebWorkers/> },
             ],
         },
     ];
