@@ -4,6 +4,16 @@ import './css/WhatIsHTML.css';
 // Importing individual content components
 import WhatIsHTML from "./contents/WhatIsHTML";
 import GettingStarted from "./contents/GettingStarted";
+import Elements from "./contents/Elements";
+import Semantic from "./contents/Semantic";
+import Media from "./contents/Media";
+import Forms from "./contents/Forms";
+import Lists from "./contents/Lists";
+import HTML5 from "./contents/HTML5";
+import ResponsiveDesign from "./contents/ResponsiveDesign";
+import ARIA from "./contents/ARIA";
+import SEO from "./contents/SEO";
+import OtherTechnologies from "./contents/OtherTechnologies";
 
 const HTMLPage = () => {
     const [activeNav, setActiveNav] = useState(null);
@@ -20,12 +30,21 @@ const HTMLPage = () => {
         {
             groupName: "Core Concepts",
             items: [
+                { name: "Elements", component: <Elements /> },
+                { name: "Semantic HTML", component: <Semantic /> },
+                { name: "Media and Embedding", component: <Media /> },
+                { name: "Forms and Input", component: <Forms/> },
+                { name: "Lists", component: <Lists/> },
             ],
         },
         {
             groupName: "Advanced Topics",
             items: [
-
+                { name: "HTML5 Features", component: <HTML5/> },
+                { name: "Responsive Design", component: <ResponsiveDesign/> },
+                { name: "ARIA", component: <ARIA/> },
+                { name: "SEO Best Practices", component: <SEO/> },
+                { name: "Other Technologies", component: <OtherTechnologies/> },
             ],
         },
     ];
