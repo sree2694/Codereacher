@@ -1,0 +1,67 @@
+.specificity-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    color: #333;
+}
+
+h1 {
+    color: #0073e6;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #005bb5;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #003f7f;
+    margin-top: 15px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+.example-section {
+    background-color: #eef;
+    padding: 15px;
+    border-left: 4px solid #0073e6;
+    margin: 20px 0;
+    font-family: monospace;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+ol {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

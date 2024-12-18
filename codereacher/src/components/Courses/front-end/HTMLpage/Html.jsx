@@ -50,7 +50,7 @@ const HTMLPage = () => {
     ];
 
     return (
-        <div className="react-page">
+        <div className="html-page">
             {/* Sidebar */}
             <aside className="sidebar">
                 {sidebarItems.map((group, groupIndex) => (
