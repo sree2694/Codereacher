@@ -1,0 +1,52 @@
+.modules-container {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+.modules-container h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.modules-container h2 {
+    color: #34495e;
+    margin-top: 20px;
+}
+
+.modules-container p {
+    margin: 10px 0;
+    color: #7f8c8d;
+}
+
+.modules-container ul {
+    list-style-type: disc;
+    margin: 10px 0 20px 20px;
+    color: #7f8c8d;
+}
+
+.modules-container ol {
+    list-style-type: decimal;
+    margin: 10px 0 20px 20px;
+    color: #7f8c8d;
+}
+
+.example-section {
+    margin: 20px 0;
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #bdc3c7;
+}
+
+.example-section pre {
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.example-section code {
+    font-family: Consolas, monospace;
+}

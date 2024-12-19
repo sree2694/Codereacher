@@ -1,0 +1,86 @@
+/* CSS Shapes */
+.shape-example .shape-circle {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    shape-outside: circle();
+}
+
+.shape-example .shape-polygon {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+/* CSS Filters */
+.filter-example img {
+    width: 200px;
+}
+
+.filter-example .filter-grayscale {
+    filter: grayscale(100%);
+}
+
+.filter-example .filter-blur {
+    filter: blur(5px);
+}
+
+/* CSS Masking */
+.mask-example .mask-circle {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    -webkit-mask: circle(50% at 50% 50%);
+    mask: circle(50% at 50% 50%);
+    mask-type: alpha;
+    -webkit-mask-type: alpha;
+}
+
+.mask-example .mask-polygon {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    -webkit-mask: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    mask: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+/* CSS Blend Modes */
+.blend-mode-example div {
+    width: 100px;
+    height: 100px;
+}
+
+.blend-mode-example .blend-mode-multiply {
+    background-color: red;
+    mix-blend-mode: multiply;
+}
+
+.blend-mode-example .blend-mode-screen {
+    background-color: blue;
+    mix-blend-mode: screen;
+}
+
+/* CSS Scroll Snap */
+.scroll-snap-example {
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    white-space: nowrap;
+}
+
+.scroll-snap-example .scroll-snap-item {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+    margin: 10px;
+    scroll-snap-align: start;
+}
+
+/* CSS Container Queries */
+@container (min-width: 600px) {
+    .container-query-example .container {
+        background-color: yellow;
+    }
+}

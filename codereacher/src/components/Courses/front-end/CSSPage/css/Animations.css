@@ -1,0 +1,80 @@
+.animations-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    color: #333;
+}
+
+h1 {
+    color: #0073e6;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #005bb5;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.example-section {
+    background-color: #eef;
+    padding: 15px;
+    border-left: 4px solid #0073e6;
+    margin: 20px 0;
+    font-family: monospace;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.animated-box {
+    background-color: #0073e6;
+    color: white;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    animation: slideIn 2s ease-in-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.transition-button {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.transition-button:hover {
+    background-color: #005bb5;
+}

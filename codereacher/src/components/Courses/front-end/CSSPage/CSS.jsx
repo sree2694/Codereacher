@@ -8,6 +8,15 @@ import Values from "./contents/Values";
 import Specificity from "./contents/Specificity";
 import Flexbox from "./contents/Flexbox";
 import GridLayout from "./contents/GridLayout";
+import Animations from "./contents/Animations";
+import Transforms from "./contents/Transforms";
+import Variables from "./contents/Variables";
+import CustomProperties from "./contents/CustomProperties";
+import GridandFlexbox from "./contents/GridandFlexbox";
+import Preprocessors from "./contents/Preprocessors";
+import Modules from "./contents/Modules";
+import CSSInJS from "./contents/CSS-in-JS";
+import AdditionalTopics from "./contents/AdditionalTopics";
 
 
 const CSSPage = () => {
@@ -36,6 +45,15 @@ const CSSPage = () => {
             items: [
                 { name: "FlexBox", component: <Flexbox /> },
                 { name: "Grid Layout", component: <GridLayout /> },
+                { name: "Animations & Transitions", component: <Animations /> },
+                { name: "Transforms", component: <Transforms /> },
+                { name: "Variables", component: <Variables /> },
+                { name: "Custom Properties", component: <CustomProperties /> },
+                { name: "Grid and Flexbox", component: <GridandFlexbox /> },
+                { name: "Preprocessors", component: <Preprocessors /> },
+                { name: "Modules", component: <Modules /> },
+                { name: "CSS-In-JS", component: <CSSInJS /> },
+                { name: "Additional Topics", component: <AdditionalTopics /> },
             ],
         },
     ];
