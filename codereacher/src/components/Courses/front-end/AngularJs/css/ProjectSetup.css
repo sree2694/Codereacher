@@ -1,0 +1,49 @@
+/* ProjectSetup.css */
+.project-setup {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+.project-setup h1 {
+    color: #2c3e50;
+}
+
+.project-setup h2 {
+    color: #34495e;
+    margin-top: 20px;
+}
+
+.project-setup h3 {
+    color: #16a085;
+    margin-top: 15px;
+}
+
+.project-setup p {
+    color: #555;
+}
+
+.project-setup ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.project-setup pre {
+    background: #f4f4f4;
+    padding: 10px;
+    border-left: 4px solid #16a085;
+    overflow-x: auto;
+}
+
+.project-setup a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.project-setup a:hover {
+    text-decoration: underline;
+}
+
+.project-setup li {
+    margin: 5px 0;
+}

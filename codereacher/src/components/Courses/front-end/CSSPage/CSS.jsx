@@ -59,7 +59,7 @@ const CSSPage = () => {
     ];
 
     return (
-        <div className="react-page">
+        <div className="css-page">
             {/* Sidebar */}
             <aside className="sidebar">
                 {sidebarItems.map((group, groupIndex) => (
@@ -82,13 +82,13 @@ const CSSPage = () => {
 
             {/* Main Content */}
             <main className="content">
-                <h1>React</h1>
+                <h1>CSS</h1>
                 <div className="content-details">
                     {activeNav
                         ? sidebarItems
                             .flatMap((group) => group.items)
                             .find((item) => item.name === activeNav)?.component
-                        : "Welcome to the HTML learning page. Select a topic from the sidebar to begin exploring."}
+                        : "Welcome to the CSS learning page. Select a topic from the sidebar to begin exploring."}
                 </div>
             </main>
         </div>

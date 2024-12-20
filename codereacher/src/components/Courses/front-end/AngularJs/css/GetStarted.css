@@ -1,0 +1,42 @@
+.angular-get-started-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+.angular-get-started-container h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.angular-get-started-container h2 {
+    color: #34495e;
+    margin-top: 20px;
+}
+
+.angular-get-started-container p {
+    margin: 10px 0;
+    color: #7f8c8d;
+}
+
+.angular-get-started-container ul {
+    list-style-type: disc;
+    margin: 10px 0 20px 20px;
+    color: #7f8c8d;
+}
+
+.angular-get-started-container pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-left: 4px solid #3498db;
+    overflow-x: auto;
+}
+
+.angular-get-started-container a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.angular-get-started-container a:hover {
+    text-decoration: underline;
+}

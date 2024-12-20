@@ -1,0 +1,89 @@
+/* Style for the MVC explanation component */
+.mvc-architecture {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+.mvc-architecture h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.mvc-architecture h2 {
+    font-size: 1.5em;
+    color: #555;
+    margin-top: 20px;
+}
+
+.mvc-architecture p {
+    font-size: 1em;
+    color: #666;
+    margin: 10px 0;
+}
+
+.mvc-architecture ul, .mvc-architecture ol {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+.mvc-architecture li {
+    margin: 5px 0;
+}
+
+.mvc-architecture pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-left: 4px solid #ccc;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 0.9em;
+}
+
+.mvc-architecture code {
+    background-color: #eef;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: Consolas, "Courier New", monospace;
+}
+
+.mvc-architecture .quiz {
+    margin-top: 20px;
+    background: #fafafa;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.mvc-architecture .quiz h3 {
+    color: #444;
+}
+
+.mvc-architecture .references {
+    margin-top: 20px;
+}
+
+.mvc-architecture .references ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.mvc-architecture .references ul li {
+    margin: 5px 0;
+}
+
+.mvc-architecture .references ul li a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.mvc-architecture .references ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the MVC architecture image */
+.mvc-architecture img {
+    max-width: 50%;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}

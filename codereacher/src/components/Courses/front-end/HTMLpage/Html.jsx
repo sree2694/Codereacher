@@ -73,7 +73,7 @@ const HTMLPage = () => {
 
             {/* Main Content */}
             <main className="content">
-                <h1>React</h1>
+                <h1>HTML</h1>
                 <div className="content-details">
                     {activeNav
                         ? sidebarItems
