@@ -1,0 +1,13 @@
+/* DirectivesCSS.css */
+
+/* Highlight class used in ng-class directive */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* Styles for dynamic text color in ng-style directive */
+.dynamic-style {
+    font-size: 16px;
+    padding: 10px;
+}

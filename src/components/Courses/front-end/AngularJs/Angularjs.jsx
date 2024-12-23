@@ -4,6 +4,8 @@ import WhatIsAngular from "./contents/WhatIsAngular";
 import GetStarted from "./contents/GetStarted";
 import ProjectSetup from "./contents/ProjectSetup";
 import ModelViewController from "./contents/ModelViewController";
+import DataBinding from './contents/DataBinding';
+import Directives from './contents/Directives';
 
 
 
@@ -24,6 +26,8 @@ const AngularPage = () => {
             groupName: "Core Concepts",
             items: [
                 { name: "Model View Controller (MVC)", component: <ModelViewController /> },
+                { name: "Data Binding", component: <DataBinding /> },
+                { name: "Directives", component: <Directives /> },
             ],
         },
         {
