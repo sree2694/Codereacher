@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Codereacher.iml" filepath="$PROJECT_DIR$/.idea/Codereacher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../codereacher.iml" filepath="$PROJECT_DIR$/../codereacher.iml" />
     </modules>
   </component>
 </project>
