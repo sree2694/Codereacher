@@ -58,7 +58,7 @@ const Directives = () => {
                     angular.module('myApp', []).directive('myDirective', function() {
                         return {
                             restrict: 'E', // Restrict to Element
-                            template: '&lt;h3&gt;This is a custom directive&lt;/h3&gt;'
+                            template: '<h3>This is a custom directive</h3>'
                         };
                     });`}
                 </code>

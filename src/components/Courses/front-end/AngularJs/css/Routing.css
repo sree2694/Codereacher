@@ -1,0 +1,61 @@
+/* Routing.css */
+
+.routing-concept {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.routing-concept h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.routing-concept h2 {
+    color: #555;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.routing-concept h3 {
+    color: #666;
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+.routing-concept p {
+    margin: 10px 0;
+    color: #333;
+}
+
+.routing-concept ul {
+    margin-left: 20px;
+    list-style: disc;
+}
+
+.routing-concept pre {
+    background-color: #272822;
+    color: #f8f8f2;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.routing-concept code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.95em;
+}
+
+.routing-concept a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+.routing-concept a:hover {
+    text-decoration: underline;
+}

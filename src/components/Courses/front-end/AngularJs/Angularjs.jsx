@@ -6,6 +6,11 @@ import ProjectSetup from "./contents/ProjectSetup";
 import ModelViewController from "./contents/ModelViewController";
 import DataBinding from './contents/DataBinding';
 import Directives from './contents/Directives';
+import Controllers from './contents/Controllers';
+import Services from './contents/Services';
+import DependencyInjection from './contents/DependencyInjection';
+import Routing from './contents/Routing';
+import Templating from './contents/Templating';
 
 
 
@@ -28,6 +33,11 @@ const AngularPage = () => {
                 { name: "Model View Controller (MVC)", component: <ModelViewController /> },
                 { name: "Data Binding", component: <DataBinding /> },
                 { name: "Directives", component: <Directives /> },
+                { name: "Controllers", component: <Controllers /> },
+                { name: "Services", component: <Services /> },
+                { name: "Dependency Injection", component: <DependencyInjection /> },
+                { name: "Routing", component: <Routing /> },
+                { name: "Templating", component: <Templating/> },
             ],
         },
         {
@@ -62,7 +72,6 @@ const AngularPage = () => {
 
             {/* Main Content */}
             <main className="content">
-                <h1>AngularJS</h1>
                 <div className="content-details">
                     {activeNav
                         ? sidebarItems

@@ -1,0 +1,58 @@
+/* DependencyInjection.css */
+
+.dependency-injection {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.dependency-injection h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #34495e;
+}
+
+.dependency-injection h3 {
+    font-size: 1.2em;
+    margin-top: 15px;
+    color: #7f8c8d;
+}
+
+.dependency-injection p {
+    margin: 10px 0;
+}
+
+.dependency-injection ul {
+    margin: 10px 0 20px 20px;
+    list-style-type: disc;
+}
+
+.dependency-injection li {
+    margin-bottom: 5px;
+}
+
+.dependency-injection pre {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin: 15px 0;
+    font-size: 0.9em;
+}
+
+.dependency-injection code {
+    padding: 1px 2px;
+    border-radius: 1px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dependency-injection a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.dependency-injection a:hover {
+    text-decoration: underline;
+}

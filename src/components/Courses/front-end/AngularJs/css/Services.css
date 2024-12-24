@@ -1,0 +1,91 @@
+/* Services.css */
+
+/* General Styling for the Services Component */
+.services-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.services-container h2 {
+    color: #2E8B57;
+    margin-top: 20px;
+}
+
+.services-container p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.services-container ul {
+    margin: 10px 20px;
+    list-style-type: disc;
+}
+
+.services-container ul li {
+    margin-bottom: 10px;
+}
+
+/* Code Block Styling */
+.services-container pre {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    overflow-x: auto;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+.services-container code {
+    color: #c7254e;
+    background-color: #f9f2f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Quiz Section Styling */
+.services-container .quiz {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.services-container .quiz h3 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.services-container .quiz ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services-container .quiz ul li {
+    margin: 5px 0;
+    padding: 5px 10px;
+    background-color: #f1f1f1;
+    border-radius: 3px;
+}
+
+/* References Section Styling */
+.services-container .references {
+    margin-top: 20px;
+}
+
+.services-container .references ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services-container .references ul li a {
+    color: #2E8B57;
+    text-decoration: none;
+}
+
+.services-container .references ul li a:hover {
+    text-decoration: underline;
+}

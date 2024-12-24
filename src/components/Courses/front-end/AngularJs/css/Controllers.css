@@ -1,0 +1,46 @@
+/* ControllersCSS.css */
+
+.controllers {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+.controllers h1 {
+    color: #2c3e50;
+    font-size: 2rem;
+}
+
+.controllers p {
+    color: #34495e;
+}
+
+.controllers ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.controllers ul li {
+    margin-bottom: 10px;
+}
+
+.controllers pre {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+.controllers code {
+    font-family: 'Courier New', Courier, monospace;
+    color: #e74c3c;
+}
+
+.controllers a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.controllers a:hover {
+    text-decoration: underline;
+}
