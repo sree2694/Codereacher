@@ -1,0 +1,65 @@
+/* CustomDirectives.css */
+
+.custom-directives {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .custom-directives h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .custom-directives h2 {
+    color: #555;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .custom-directives p {
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .custom-directives ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #444;
+  }
+  
+  .custom-directives pre {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow-x: auto;
+    border-radius: 4px;
+    margin: 15px 0;
+  }
+  
+  .custom-directives code {
+    font-family: monospace;
+    color: #d14;
+  }
+  
+  .custom-directives a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .custom-directives a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Highlight effect for usage example */
+  [highlight] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+  }
+  

@@ -1,0 +1,85 @@
+/* Styling for the main container */
+.advanced-routing {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+/* Styling for headings */
+.advanced-routing h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.advanced-routing h2 {
+    color: #34495e;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.advanced-routing h3 {
+    color: #7f8c8d;
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+/* Styling for paragraphs */
+.advanced-routing p {
+    color: #555;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+/* Styling for lists */
+.advanced-routing ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.advanced-routing ul li {
+    margin: 5px 0;
+}
+
+/* Styling for code blocks */
+.advanced-routing pre {
+    background-color: #f4f4f4;
+    border-left: 4px solid #3498db;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+.advanced-routing code {
+    font-family: "Courier New", Courier, monospace;
+    color: #e74c3c;
+}
+
+/* Styling for quizzes */
+.advanced-routing .quiz {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ecf0f1;
+    border-left: 4px solid #3498db;
+}
+
+.advanced-routing .quiz ul {
+    list-style-type: decimal;
+}
+
+/* Styling for references */
+.advanced-routing .references {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ecf0f1;
+    border-left: 4px solid #2ecc71;
+}
+
+.advanced-routing .references a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.advanced-routing .references a:hover {
+    text-decoration: underline;
+}

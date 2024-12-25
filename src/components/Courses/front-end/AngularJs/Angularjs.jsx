@@ -11,6 +11,12 @@ import Services from './contents/Services';
 import DependencyInjection from './contents/DependencyInjection';
 import Routing from './contents/Routing';
 import Templating from './contents/Templating';
+import CustomDirectives from './contents/CustomDirectives';
+import Filters from './contents/Filters';
+import DataBindingOptimization from './contents/DataBindingOptimization';
+import Providers from './contents/Providers';
+import ModuleArchitecture from './contents/ModuleArchitecture';
+import AdvancedRouting from './contents/AdvancedRouting';
 
 
 
@@ -43,7 +49,20 @@ const AngularPage = () => {
         {
             groupName: "Advanced Topics",
             items: [
-
+                { name: "Custom Directives", component: <CustomDirectives /> },
+                { name: "Filters", component: <Filters /> },
+                { name: "Two-Way Data Binding Optimization", component: <DataBindingOptimization /> },
+                { name: "Providers", component: <Providers /> },
+                { name: "Module Architecture", component: <ModuleArchitecture /> },
+                { name: "Advanced Routing (UI-Router)", component: <AdvancedRouting /> },
+    // { name: "Animations", component: <Animations /> },
+    // { name: "Form Validation and Custom Validators", component: <FormValidation /> },
+    // { name: "Performance Optimization", component: <PerformanceOptimization /> },
+    // { name: "Testing AngularJS Applications (Unit & End-to-End Testing)", component: <TestingAngularJS /> },
+    // { name: "Event Handling and Event Emitters", component: <EventHandling /> },
+    // { name: "Digest Cycle and $apply", component: <DigestCycle /> },
+    // { name: "RESTful API Integration", component: <APIIntegration /> },
+    // { name: "Authentication and Security", component: <Authentication /> },
             ],
         },
     ];

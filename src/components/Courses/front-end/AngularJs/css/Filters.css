@@ -1,0 +1,64 @@
+/* Filters.css */
+
+.filters-container {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.filters-container h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.filters-container h2 {
+    font-size: 1.5em;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.filters-container p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.filters-container ul {
+    margin-left: 20px;
+    list-style: disc;
+    color: #444;
+}
+
+.filters-container pre {
+    padding: 10px;
+    border-left: 4px solid #007BFF;
+    overflow-x: auto;
+    border-radius: 3px;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.filters-container code {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2px 4px;
+    border-radius: 3px;
+    color: #c7254e;
+    font-size: 1em;
+}
+
+.filters-container a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.filters-container a:hover {
+    text-decoration: underline;
+}
+
+.filters-container li {
+    margin: 5px 0;
+}

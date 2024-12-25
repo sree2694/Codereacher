@@ -1,0 +1,87 @@
+/* ModuleArchitecture.css */
+
+/* Styling for the main container */
+.module-architecture {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+/* Styling for headings */
+.module-architecture h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.module-architecture h2 {
+    color: #34495e;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.module-architecture h3 {
+    color: #7f8c8d;
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+/* Styling for paragraphs */
+.module-architecture p {
+    color: #555;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+/* Styling for lists */
+.module-architecture ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+.module-architecture ul li {
+    margin: 5px 0;
+}
+
+/* Styling for code blocks */
+.module-architecture pre {
+    background-color: #f4f4f4;
+    border-left: 4px solid #3498db;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+.module-architecture code {
+    font-family: "Courier New", Courier, monospace;
+    color: #e74c3c;
+}
+
+/* Styling for quizzes */
+.module-architecture .quiz {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ecf0f1;
+    border-left: 4px solid #3498db;
+}
+
+.module-architecture .quiz ul {
+    list-style-type: decimal;
+}
+
+/* Styling for references */
+.module-architecture .references {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ecf0f1;
+    border-left: 4px solid #2ecc71;
+}
+
+.module-architecture .references a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.module-architecture .references a:hover {
+    text-decoration: underline;
+}
