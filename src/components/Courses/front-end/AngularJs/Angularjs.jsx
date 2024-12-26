@@ -17,6 +17,10 @@ import DataBindingOptimization from './contents/DataBindingOptimization';
 import Providers from './contents/Providers';
 import ModuleArchitecture from './contents/ModuleArchitecture';
 import AdvancedRouting from './contents/AdvancedRouting';
+import Animations from './contents/Animations';
+import TestingAngularJS from './contents/TestingAngularJS';
+import APIIntegration from './contents/APIIntegration';
+import Authentication from './contents/Authentication';
 
 
 
@@ -55,14 +59,10 @@ const AngularPage = () => {
                 { name: "Providers", component: <Providers /> },
                 { name: "Module Architecture", component: <ModuleArchitecture /> },
                 { name: "Advanced Routing (UI-Router)", component: <AdvancedRouting /> },
-    // { name: "Animations", component: <Animations /> },
-    // { name: "Form Validation and Custom Validators", component: <FormValidation /> },
-    // { name: "Performance Optimization", component: <PerformanceOptimization /> },
-    // { name: "Testing AngularJS Applications (Unit & End-to-End Testing)", component: <TestingAngularJS /> },
-    // { name: "Event Handling and Event Emitters", component: <EventHandling /> },
-    // { name: "Digest Cycle and $apply", component: <DigestCycle /> },
-    // { name: "RESTful API Integration", component: <APIIntegration /> },
-    // { name: "Authentication and Security", component: <Authentication /> },
+                { name: "Animations", component: <Animations /> },
+                { name: "Testing AngularJS Applications (Unit & End-to-End Testing)", component: <TestingAngularJS /> },
+                { name: "RESTful API Integration", component: <APIIntegration /> },
+                { name: "Authentication and Security", component: <Authentication /> },
             ],
         },
     ];
