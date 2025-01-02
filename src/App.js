@@ -9,7 +9,6 @@ import Courses from "./components/Courses";
 import ReactPage from "./components/Courses/front-end/ReactPage/Reactjs";
 import AngularPage from "./components/Courses/front-end/AngularJs/Angularjs";
 import VuePage from "./components/Courses/front-end/Vuejs";
-import BootstrapPage from "./components/Courses/front-end/Bootstrap";
 import NodeJsPage from "./components/Courses/back-end/nodejs";
 import SpringBootPage from "./components/Courses/back-end/springboot";
 import DjangoPage from "./components/Courses/back-end/django";
@@ -26,6 +25,7 @@ import TermsOfService from "./components/Footer/TermsOfService";
 import HelpCenter from "./components/Footer/HelpCenter";
 import HTMLPage from "./components/Courses/front-end/HTMLpage/Html";
 import CSSPage from "./components/Courses/front-end/CSSPage/CSS";
+import BootstrapPage from './components/Courses/front-end/Bootstrap/Bootstrap';
 
 function App() {
     return (

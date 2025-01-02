@@ -1,0 +1,71 @@
+/* GetStarted.css */
+
+.get-started {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+.get-started h1 {
+    color: #0056b3;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.get-started h2 {
+    color: #28a745;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.get-started p {
+    color: #212529;
+    font-size: 1.1rem;
+}
+
+.get-started pre {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.get-started code {
+    color: #d63384;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1rem;
+}
+
+.get-started ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.get-started a {
+    color: #17a2b8;
+    text-decoration: none;
+}
+
+.get-started a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .get-started {
+        margin: 10px;
+    }
+
+    .get-started h1 {
+        font-size: 2rem;
+    }
+
+    .get-started h2 {
+        font-size: 1.5rem;
+    }
+
+    .get-started p {
+        font-size: 1rem;
+    }
+}

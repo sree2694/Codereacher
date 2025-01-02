@@ -1,0 +1,60 @@
+/* WhatIsBootstrap.css */
+
+.what-is-bootstrap {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+.what-is-bootstrap h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.what-is-bootstrap h2 {
+    font-size: 1.8rem;
+    color: #0056b3;
+    margin-top: 20px;
+}
+
+.what-is-bootstrap p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.what-is-bootstrap ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #555;
+}
+
+.what-is-bootstrap ul li {
+    margin-bottom: 10px;
+}
+
+.what-is-bootstrap pre {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.what-is-bootstrap code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #e9ecef;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.what-is-bootstrap a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.what-is-bootstrap a:hover {
+    text-decoration: underline;
+}
