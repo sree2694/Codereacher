@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import WhatIsBootstrap from './contents/WhatIsBootstrap';
 import GetStarted from './contents/GetStarted';
 import GridSystem from './contents/GridSystem';
+import ResponsiveDesign from './contents/ResponsiveDesign';
+import BasicComponents from './contents/BasicComponents';
+import Typography from './contents/Typography';
 
 
 const BootstrapPage = () => {
@@ -15,9 +18,9 @@ const BootstrapPage = () => {
                 { name: "What is Bootstrap?", component: <WhatIsBootstrap /> },
                 { name: "Getting Started", component: <GetStarted /> },
                 { name: "Grid System Basics", component: <GridSystem /> },
-                // { name: "Responsive Design", component: <ResponsiveDesign /> },
-                // { name: "Basic Components", component: <BasicComponents /> },
-                // { name: "Typography", component: <Typography /> },
+                { name: "Responsive Design", component: <ResponsiveDesign /> },
+                { name: "Basic Components", component: <BasicComponents /> },
+                { name: "Typography", component: <Typography /> },
             ],
         },
         {

@@ -1,0 +1,124 @@
+/* Typography.css */
+
+/* General styling for Typography examples */
+.typography {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Heading styles */
+.typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
+    margin-bottom: 15px;
+}
+
+.typography h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+.typography h2 {
+    font-size: 2rem;
+    color: #444;
+}
+.typography h3 {
+    font-size: 1.75rem;
+    color: #555;
+}
+.typography h4 {
+    font-size: 1.5rem;
+    color: #666;
+}
+.typography h5 {
+    font-size: 1.25rem;
+    color: #777;
+}
+.typography h6 {
+    font-size: 1rem;
+    color: #888;
+}
+
+/* Paragraph styles */
+.typography p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* Display heading styles */
+.typography .display-1 {
+    font-size: 4rem;
+    font-weight: 300;
+    color: #333;
+}
+.typography .display-2 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    color: #444;
+}
+.typography .display-3 {
+    font-size: 3rem;
+    font-weight: 300;
+    color: #555;
+}
+.typography .display-4 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #666;
+}
+
+/* Text alignment */
+.text-left {
+    text-align: left !important;
+}
+.text-center {
+    text-align: center !important;
+}
+.text-right {
+    text-align: right !important;
+}
+
+/* Text transformations */
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+.text-lowercase {
+    text-transform: lowercase !important;
+}
+.text-capitalize {
+    text-transform: capitalize !important;
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+    .typography h1 {
+        font-size: 2rem;
+    }
+    .typography h2 {
+        font-size: 1.75rem;
+    }
+    .typography h3 {
+        font-size: 1.5rem;
+    }
+    .typography h4 {
+        font-size: 1.25rem;
+    }
+    .typography h5 {
+        font-size: 1rem;
+    }
+    .typography h6 {
+        font-size: 0.875rem;
+    }
+
+    .typography .display-1 {
+        font-size: 3rem;
+    }
+    .typography .display-2 {
+        font-size: 2.5rem;
+    }
+    .typography .display-3 {
+        font-size: 2rem;
+    }
+    .typography .display-4 {
+        font-size: 1.75rem;
+    }
+}
