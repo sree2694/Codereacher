@@ -5,6 +5,10 @@ import GridSystem from './contents/GridSystem';
 import ResponsiveDesign from './contents/ResponsiveDesign';
 import BasicComponents from './contents/BasicComponents';
 import Typography from './contents/Typography';
+import Utilities from './contents/Utilities';
+import GridSystemDepth from './contents/GridSystemDepth';
+import FormsandInputs from './contents/FormsandInputs';
+import ImagesandFigures from './contents/ImagesandFigures';
 
 
 const BootstrapPage = () => {
@@ -26,7 +30,10 @@ const BootstrapPage = () => {
         {
             groupName: "Core Concepts",
             items: [
-                // { name: "Bootstrap Utilities", component: <Utilities /> },
+                { name: "Utilities", component: <Utilities /> },
+                { name: "Grid System (In-depth)", component: <GridSystemDepth /> },
+                { name: "Forms and Inputs", component: <FormsandInputs /> },
+                { name: "Images and Figures", component: <ImagesandFigures /> },
             ],
         },
         {

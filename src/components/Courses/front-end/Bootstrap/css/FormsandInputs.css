@@ -1,0 +1,97 @@
+/* FormsandInputs.css */
+
+.forms-and-inputs {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.forms-and-inputs h1 {
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.forms-and-inputs h2 {
+    color: #495057;
+    margin-top: 30px;
+}
+
+.forms-and-inputs h3 {
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+.forms-and-inputs form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+.forms-and-inputs .form-control {
+    margin-bottom: 15px;
+}
+
+.forms-and-inputs .form-check {
+    margin-bottom: 15px;
+}
+
+.forms-and-inputs .btn-primary {
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.forms-and-inputs .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.forms-and-inputs .quiz {
+    margin-top: 30px;
+}
+
+.forms-and-inputs .quiz-question {
+    margin-bottom: 20px;
+}
+
+.forms-and-inputs .quiz-question p {
+    font-weight: bold;
+}
+
+.forms-and-inputs ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.forms-and-inputs ul li {
+    margin-bottom: 10px;
+}
+
+.forms-and-inputs ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forms-and-inputs ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .forms-and-inputs form {
+        padding: 10px;
+    }
+
+    .forms-and-inputs .btn-primary {
+        font-size: 14px;
+    }
+}
