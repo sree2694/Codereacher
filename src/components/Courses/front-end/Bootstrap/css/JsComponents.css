@@ -1,0 +1,89 @@
+/* Responsive CSS for JavaScript Components in Bootstrap */
+
+.container {
+    padding: 15px;
+}
+
+/* Modals */
+.modal-custom {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 10% auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Tooltips */
+.tooltip-custom {
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #000;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* Popovers */
+.popover-custom {
+    border: 1px solid #ccc;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Carousels */
+.carousel-custom {
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+.carousel-custom img {
+    width: 100%;
+    height: auto;
+}
+
+/* Collapse */
+.collapse-custom {
+    background-color: #e9ecef;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Scrollspy */
+.scrollspy-custom ul {
+    list-style: none;
+    padding: 0;
+}
+.scrollspy-custom ul li {
+    margin-bottom: 10px;
+}
+.scrollspy-custom ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+.scrollspy-custom ul li a.active {
+    font-weight: bold;
+    color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .modal-custom {
+        padding: 15px;
+        max-width: 90%;
+    }
+    .popover-custom {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-custom {
+        max-height: 300px;
+    }
+}

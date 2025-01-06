@@ -1,0 +1,112 @@
+/* Customise.css - Responsive Styling for Bootstrap Customization */
+
+/* Button Overrides */
+.btn-custom {
+    background-color: var(--primary-color);
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn-custom:hover {
+    background-color: var(--dark-color);
+    color: #fff;
+}
+
+/* Breakpoints */
+@media (max-width: 576px) {
+    .container {
+        padding: 10px;
+    }
+
+    .btn-custom {
+        width: 100%;
+        padding: 12px;
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .btn-custom {
+        font-size: 1.1rem;
+        padding: 15px 30px;
+    }
+}
+
+@media (min-width: 769px) {
+    .btn-custom {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
+
+/* Card Customizations */
+.card-custom {
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-custom .card-header {
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.card-custom .card-body {
+    padding: 20px;
+}
+
+/* Custom Modal */
+.modal-custom .modal-content {
+    border-radius: 10px;
+}
+
+.modal-custom .modal-header {
+    background-color: var(--info-color);
+    color: #fff;
+    border-bottom: none;
+}
+
+.modal-custom .modal-footer {
+    border-top: none;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--dark-color);
+    margin-bottom: 15px;
+}
+
+p {
+    color: var(--secondary-color);
+    line-height: 1.5;
+}
+
+/* Table Customizations */
+.table-custom {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-custom th, .table-custom td {
+    border: 1px solid var(--light-color);
+    padding: 10px;
+    text-align: left;
+}
+
+.table-custom th {
+    background-color: var(--dark-color);
+    color: #fff;
+}
+
+/* Footer Styling */
+.footer-custom {
+    background-color: var(--dark-color);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}

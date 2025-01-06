@@ -9,6 +9,14 @@ import Utilities from './contents/Utilities';
 import GridSystemDepth from './contents/GridSystemDepth';
 import FormsandInputs from './contents/FormsandInputs';
 import ImagesandFigures from './contents/ImagesandFigures';
+import JsComponents from './contents/JsComponents';
+import Customise from './contents/Customise';
+import Icons from './contents/Icons';
+import Accessibility from './contents/Accessibility';
+import Themes from './contents/Themes';
+import Frameworks from './contents/Frameworks';
+import Optimization from './contents/Optimization';
+import AdvancedLayouts from './contents/AdvancedLayouts';
 
 
 const BootstrapPage = () => {
@@ -39,7 +47,14 @@ const BootstrapPage = () => {
         {
             groupName: "Advanced Topics",
             items: [
-        
+                { name: "JavaScript Components", component: <JsComponents /> },
+                { name: "Customizing Bootstrap", component: <Customise /> },
+                { name: "Icons", component: <Icons /> },
+                { name: "Accessibility", component: <Accessibility /> },
+                { name: "Themes", component: <Themes /> },
+                { name: "Frameworks", component: <Frameworks /> },
+                { name: "Performance Optimization", component: <Optimization /> },
+                { name: "Advanced Layouts", component: <AdvancedLayouts /> },
             ],
         },
     ];

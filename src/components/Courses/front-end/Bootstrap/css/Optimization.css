@@ -1,0 +1,51 @@
+.optimization-container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+  }
+  
+  h1,
+  h2 {
+    color: #004085;
+  }
+  
+  .content {
+    margin-top: 20px;
+    line-height: 1.8;
+  }
+  
+  pre {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: auto;
+  }
+  
+  .quiz-section {
+    margin-top: 30px;
+  }
+  
+  .quiz-section form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .references-section ul {
+    list-style-type: square;
+  }
+  
+  .references-section li {
+    margin: 10px 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .optimization-container {
+      padding: 10px;
+    }
+  
+    pre {
+      font-size: 0.85rem;
+    }
+  }
+  

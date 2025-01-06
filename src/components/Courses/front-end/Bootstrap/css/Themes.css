@@ -1,0 +1,83 @@
+/* Themes.css - Responsive and customizable CSS for Bootstrap Themes */
+
+  /* Customize buttons */
+  .btn-custom {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: none;
+  }
+  
+  .btn-custom:hover {
+    background-color: darken(var(--primary-color), 10%);
+  }
+  
+  /* Custom card styles */
+  .card-custom {
+    border: 1px solid var(--secondary-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-custom .card-header {
+    background-color: var(--primary-color);
+    color: #ffffff;
+  }
+  
+  .card-custom .card-body {
+    background-color: #ffffff;
+  }
+  
+  /* Utility classes for theme */
+  .text-custom-primary {
+    color: var(--primary-color) !important;
+  }
+  
+  .text-custom-secondary {
+    color: var(--secondary-color) !important;
+  }
+  
+  .bg-custom-primary {
+    background-color: var(--primary-color) !important;
+  }
+  
+  .bg-custom-secondary {
+    background-color: var(--secondary-color) !important;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 576px) {
+    .btn-custom {
+      font-size: 0.875rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+  
+  @media (min-width: 577px) and (max-width: 768px) {
+    .btn-custom {
+      font-size: 1rem;
+      padding: 0.75rem 1.25rem;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .btn-custom {
+      font-size: 1.125rem;
+      padding: 1rem 1.5rem;
+    }
+  }
+  
+  /* Accessibility-focused styles */
+  .skip-to-content {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--primary-color);
+    color: white;
+    padding: 8px;
+    z-index: 1000;
+    text-decoration: none;
+  }
+  
+  .skip-to-content:focus {
+    top: 0;
+  }
+  
