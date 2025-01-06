@@ -8,9 +8,7 @@ import Features from "./components/Features";
 import Courses from "./components/Courses";
 import ReactPage from "./components/Courses/front-end/ReactPage/Reactjs";
 import AngularPage from "./components/Courses/front-end/AngularJs/Angularjs";
-import VuePage from "./components/Courses/front-end/Vuejs";
 import NodeJsPage from "./components/Courses/back-end/nodejs";
-import SpringBootPage from "./components/Courses/back-end/springboot";
 import DjangoPage from "./components/Courses/back-end/django";
 import ExpressJsPage from "./components/Courses/back-end/expressjs";
 import RubyRailsPage from "./components/Courses/back-end/rubyrails";
@@ -26,6 +24,7 @@ import HelpCenter from "./components/Footer/HelpCenter";
 import HTMLPage from "./components/Courses/front-end/HTMLpage/Html";
 import CSSPage from "./components/Courses/front-end/CSSPage/CSS";
 import BootstrapPage from './components/Courses/front-end/Bootstrap/Bootstrap';
+import SpringBootPage from './components/Courses/back-end/SpringBoot/springboot';
 
 function App() {
     return (
@@ -50,7 +49,6 @@ function App() {
                         {/* Technology Pages */}
                         <Route path="/react" element={<ReactPage />} />
                         <Route path="/angular" element={<AngularPage />} />
-                        <Route path="/vuejs" element={<VuePage />} />
                         <Route path="/bootstrap" element={<BootstrapPage />} />
                         <Route path="/html" element={<HTMLPage />} />
                         <Route path="/css" element={<CSSPage />} />

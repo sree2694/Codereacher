@@ -12,7 +12,6 @@ const Courses = () => {
             technologies: [
                 { name: "React", path: "/react" },
                 { name: "Angular", path: "/angular" },
-                { name: "Vue.js", path: "/vuejs" },
                 { name: "Bootstrap", path: "/bootstrap" },
                 { name: "HTML", path: "/html" },
                 { name: "CSS", path: "/css" },
