@@ -58,7 +58,7 @@ const AboutUs = () => {
                     Have questions or need assistance? Reach out to us:
                 </p>
                 <ul>
-                    <li>Email: <a href="mailto:sreekanth.j26@gmail.com">support@mernacademy.com</a></li>
+                    <li>Email: <a href="mailto:sreekanth.j26@gmail.com">Click Here</a></li>
                 </ul>
             </section>
         </div>

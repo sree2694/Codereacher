@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import WhatIsSpringBoot from './contents/WhatIsSpringBoot';
 import GetStarted from './contents/GetStarted';
+import KeyFeatures from './contents/KeyFeatures';
+import BasicComponents from './contents/BasicComponents';
+import RunningApp from './contents/RunningApp';
+import DependencyManagement from './contents/DependencyManagement';
 
 
 const SpringBootPage = () => {
@@ -13,7 +17,10 @@ const SpringBootPage = () => {
             items: [
                 { name: "What is Spring Boot?", component: <WhatIsSpringBoot /> },
                 { name: "Setting Up Spring Boot", component: <GetStarted /> },
-                // { name: "Key Features", component: <KeyFeatures /> },
+                { name: "Key Features", component: <KeyFeatures /> },
+                { name: "Basic Components", component: <BasicComponents /> },
+                { name: "Running a Spring Boot Application", component: <RunningApp /> },
+                { name: "Dependency Management", component: <DependencyManagement /> },
             ],
         },
         {
