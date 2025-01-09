@@ -5,6 +5,15 @@ import KeyFeatures from './contents/KeyFeatures';
 import BasicComponents from './contents/BasicComponents';
 import RunningApp from './contents/RunningApp';
 import DependencyManagement from './contents/DependencyManagement';
+import Annotations from './contents/Annotations';
+import Configuration from './contents/Configuration';
+import RESTfulAPIs from './contents/RESTfulAPIs';
+import DataAccess from './contents/DataAccess';
+import Testing from './contents/Testing';
+import Actuator from './contents/Actuator';
+import Security from './contents/Security';
+import Databases from './contents/Databases';
+import Microservices from './contents/Microservices';
 
 
 const SpringBootPage = () => {
@@ -26,13 +35,20 @@ const SpringBootPage = () => {
         {
             groupName: "Core Concepts",
             items: [
-
+                { name: "Annotations", component: <Annotations /> },
+                { name: "Configuration", component: <Configuration /> },
+                { name: "RESTful APIs", component: <RESTfulAPIs /> },
+                { name: "Data Access", component: <DataAccess /> },
+                { name: "Testing", component: <Testing /> },
+                { name: "Actuator", component: <Actuator /> },
             ],
         },
         {
             groupName: "Advanced Topics",
             items: [
-      
+                { name: "Security", component: <Security /> },
+                { name: "Databases", component: <Databases /> },
+                { name: "Microservices", component: <Microservices /> },
             ],
         },
     ];

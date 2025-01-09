@@ -1,0 +1,47 @@
+.restful-apis-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #4CAF50;
+  }
+  
+  pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-left: 5px solid #4CAF50;
+    overflow-x: auto;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  form div {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  @media (max-width: 600px) {
+    .restful-apis-container {
+      padding: 10px;
+    }
+  
+    pre {
+      font-size: 12px;
+    }
+  }
+  
