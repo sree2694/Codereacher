@@ -1,5 +1,5 @@
 /* Layout styles */
-.react-page, .html-page, .css-page {
+.react-page, .html-page, .css-page, .nodejs-page {
     display: flex;
     height: 100vh;
     font-family: 'Arial', sans-serif;

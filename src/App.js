@@ -8,7 +8,7 @@ import Features from "./components/Features";
 import Courses from "./components/Courses";
 import ReactPage from "./components/Courses/front-end/ReactPage/Reactjs";
 import AngularPage from "./components/Courses/front-end/AngularJs/Angularjs";
-import NodeJsPage from "./components/Courses/back-end/nodejs";
+import NodeJsPage from "./components/Courses/back-end/NodeJs/nodejs";
 import DjangoPage from "./components/Courses/back-end/django";
 import ExpressJsPage from "./components/Courses/back-end/expressjs";
 import RubyRailsPage from "./components/Courses/back-end/rubyrails";
