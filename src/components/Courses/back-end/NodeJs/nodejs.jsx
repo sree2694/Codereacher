@@ -2,6 +2,11 @@ import React, { useState } from 'react';
 import WhatIsNodejs from './contents/WhatIsNodejs';
 import Architecture from './contents/Architecture';
 import GettingStarted from './contents/GettingStarted';
+import Modules from './contents/Modules';
+import Asynchronous from './contents/Asynchronous';
+import HTTPServer from './contents/HTTPServer';
+import FileSystemModule from './contents/fs';
+import StreamAPI from './contents/StreamAPI';
 
 
 const NodeJsPage = () => {
@@ -20,7 +25,11 @@ const NodeJsPage = () => {
         {
             groupName: "Core Concepts",
             items: [
-
+                { name: "Modules", component: <Modules /> },
+                { name: "Asynchronous Programming", component: <Asynchronous /> },
+                { name: "HTTP Server", component: <HTTPServer /> },
+                { name: "File System Module", component: <FileSystemModule /> },
+                { name: "Stream API", component: <StreamAPI /> },
             ],
         },
         {

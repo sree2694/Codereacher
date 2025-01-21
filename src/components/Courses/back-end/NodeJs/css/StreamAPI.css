@@ -1,0 +1,66 @@
+.streamapi-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #2c3e50;
+  }
+  
+  pre {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-left: 5px solid #007bff;
+    overflow-x: auto;
+  }
+  
+  code {
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .quiz-result {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .streamapi-container {
+      padding: 10px;
+    }
+  
+    pre {
+      font-size: 12px;
+    }
+  }
+  
