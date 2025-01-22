@@ -7,6 +7,12 @@ import Asynchronous from './contents/Asynchronous';
 import HTTPServer from './contents/HTTPServer';
 import FileSystemModule from './contents/fs';
 import StreamAPI from './contents/StreamAPI';
+import Ecosystem from './contents/Ecosystem';
+import ClusterModule from './contents/ClusterModule';
+import Debugging from './contents/Debugging';
+import Security from './contents/Security';
+import RealtimeApp from './contents/RealtimeApp';
+import Optimization from './contents/Optimization';
 
 
 const NodeJsPage = () => {
@@ -35,7 +41,12 @@ const NodeJsPage = () => {
         {
             groupName: "Advanced Topics",
             items: [
-
+                { name: "EcoSystem", component: <Ecosystem /> },
+                { name: "Cluster Module", component: <ClusterModule /> },
+                { name: "Debugging", component: <Debugging/> },
+                { name: "Security", component: <Security/> },
+                { name: "Performance Optimization", component: <Optimization/> },
+                { name: "Real-time Applications", component: <RealtimeApp/> },
             ],
         },
     ];
